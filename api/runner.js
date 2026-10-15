@@ -4,35 +4,35 @@ const runners = [
     runner_number: "001",
     distance: "10km",
     discount: "50%",
-    recorded: "yes"
+    recorded: "Zapisany poprawnie"
   },
   {
     email: "jan.nowak@example.com",
     runner_number: "002",
     distance: "5km",
     discount: "25%",
-    recorded: "no"
+    recorded: "Zapisany poprawnie"
   },
   {
     email: "ewa.wisniewska@example.com",
     runner_number: "003",
     distance: "1km",
     discount: "5%",
-    recorded: "yes"
+    recorded: "Zapisany poprawnie"
   },
   {
     email: "piotr.zielinski@example.com",
     runner_number: "004",
     distance: "9km",
     discount: "45%",
-    recorded: "yes"
+    recorded: "Zapisany poprawnie"
   },
   {
     email: "karolina.wojcik@example.com",
     runner_number: "005",
     distance: "4km",
     discount: "20%",
-    recorded: "no"
+    recorded: "Zapisany poprawnie"
   }
 ];
 
