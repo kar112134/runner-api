@@ -38,9 +38,12 @@ const runners = [
 
 export default function handler(req, res) {
   const email = req.query.email;
+  const runnerNumber = req.query.runner_number;
 
   const runner = runners.find(
-    r => r.email.toLowerCase() === email.toLowerCase()
+    r =>
+      r.email.toLowerCase() === email.toLowerCase() &&
+      r.runner_number === runnerNumber
   );
 
   if (!runner) {
@@ -51,4 +54,3 @@ export default function handler(req, res) {
 
   res.status(200).json(runner);
 }
-``
